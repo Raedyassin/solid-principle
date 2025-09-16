@@ -1,4 +1,3 @@
-
 # Table of Content
 - [What is SOLID Principle](#what-is-solid-principle)
 - [What Problems Does SOLID Come to Solve](#what-problems-does-solid-come-to-solve)
