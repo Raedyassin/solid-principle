@@ -47,7 +47,7 @@ Think of them as **rules of thumb for writing good, clean Object-Oriented code**
 ## What is SPR
 A **class** or **function** should have only one reason to change
 
-> A ==**reason to change**== = a ==**different kind of responsibility**==.
+> A **reason to change** = a **different kind of responsibility**.
 
 ###  Fore example `userService`
 The **UserService’s responsibility is to manage user-related business logic and user lifecycle.**
@@ -69,7 +69,7 @@ What is NOT `UserService` responsibility?
  It means **a change in a business requirement, rule, or concern**.
  
  ## How to Think About "Reason to Change"
-- A **reason to change** = a ==**different kind of responsibility**==.
+- A **reason to change** = a **different kind of responsibility**.
 - Common responsibilities are:
     1. **Business logic** (rules, calculations).
     2. **Persistence** (database, files).
@@ -189,7 +189,6 @@ class UserService {
 4. **Does it require the user entity itself to perform, or is it external?**
     - ✅ Needs user entity (change password, update email) → `UserService`.
     - ❌ External (send email, log activity) → different service.
-
 
 # Open-Closed Principle (OCP)
 
